@@ -83,6 +83,8 @@ a {
 .tm-tagline {
     font-size: 1.5rem;   
     margin-left: 130px;
+    font-variant: small-caps;
+    color: #46624E;
 }
 
 #tm-video-container {
@@ -230,6 +232,12 @@ button.mfp-arrow {
 .logo{
     max-width: 20vw;
     max-height: 24vh;
+}
+@media(min-width:600px){
+    .logo{
+        max-width: 10vw;
+        min-width: 12vh;
+    }
 }
 /* Gallery */
 .tm-gallery {
