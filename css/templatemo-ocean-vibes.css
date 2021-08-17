@@ -227,7 +227,10 @@ button.mfp-arrow {
     max-width: 300px;
     max-height: 600px;
 }
-
+.logo{
+    max-width: 20vw;
+    max-height: 24vh;
+}
 /* Gallery */
 .tm-gallery {
     flex: 0 0 68%;
